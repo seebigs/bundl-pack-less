@@ -1,0 +1,24 @@
+{
+  "name": "bundl-pack-less",
+  "version": "0.1.0",
+  "description": "Package LESS files",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/automated"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seebigs/bundl-pack-less.git"
+  },
+  "author": "Chris Bigelow <seebigswork@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seebigs/bundl-pack-less/issues"
+  },
+  "dependencies": {
+    "less": "^2.6.0"
+  },
+  "devDependencies": {
+    "feather-test": "^1.1.0"
+  }
+}
