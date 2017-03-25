@@ -26,5 +26,5 @@ var options = {
 bundl('entry.js')
     .then(pack({ less: lessProcessor(options) }))
     .then(write())
-    .all();
+    .go();
 ```
