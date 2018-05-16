@@ -4,7 +4,7 @@
   "description": "Package LESS files",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test/automated"
+    "test": "node test"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,9 @@
     "url": "https://github.com/seebigs/bundl-pack-less/issues"
   },
   "dependencies": {
-    "less": "^2.6.0"
+    "less": "^3.0.1"
   },
   "devDependencies": {
-    "feather-test": "^1.1.0"
+    "feather-test": "^4.0.0"
   }
 }

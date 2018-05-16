@@ -1,5 +1,5 @@
 
-var lessProcessor = require('../../index.js')({});
+var lessProcessor = require('../../index.js');
 
 function getProcessor (ext) {
     return {

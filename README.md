@@ -13,7 +13,7 @@ $ npm install --save-dev bundl-pack-less
 ## Use
 
 ```js
-var bundl = require('bundl');
+var Bundl = require('bundl');
 var pack = require('bundl-pack');
 var write = require('bundl-write');
 
@@ -23,7 +23,7 @@ var options = {
     relativeUrls: false
 };
 
-bundl('entry.js')
+new Bundl('entry.js')
     .then(pack({ less: lessProcessor(options) }))
     .then(write())
     .go();
