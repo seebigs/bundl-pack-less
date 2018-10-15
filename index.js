@@ -14,7 +14,7 @@ function lessProcessor(getProcessor, lessOptions, packOptions) {
 
     packOptions = packOptions || {};
     var cssOptions = Object.assign({}, packOptions.css, { autoInject: options.autoInject });
-    var cssProcessor = getProcessor('css');
+    var cssProcessor = getProcessor('css', { css: cssOptions });
 
     function processor (file) {
         var contents = file.contents;
